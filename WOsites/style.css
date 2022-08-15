@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 4px;  
+    background-color:#DFE9F2;
+}
+
+.logo-heder{
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.main-menu{
+    display: flex;
+    gap: 10px;
+}
+
+.main-content_texto{
+    display: flex;
+    background-image: url(imagens/bacground1.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: space-around; 
+    height: 800px;
+    background-color:#DFE9F2;
+    border-top: 0.4px solid #8b5427;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 25px;
+    
+}
+
+
+.main-h1{
+    text-align: center;
+}
+
+.caixa1{
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    
+    
+}
+
+.main-caixa1{
+    text-align: center;
+    color: #525252; 
+
+}
+
+.caixa2{
+    height: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+.main-caixa2{
+    text-align: center;
+    color: #525252; 
+
+}
+
+.caixa3{
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.main-caixa3{
+    text-align: center;
+    color: #525252; 
+
+}
+
+.caixa4{
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.main-caixa4{
+    text-align: center;
+    color: #525252; 
+
+}
+
+
+.img{
+    width: 100px;
+    height: 900px;
+}
+
+a{
+    color: #525252; 
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#DFE9F2;
+    border-top: 0.4px solid #8b5427;
+    padding-top: 20px;
+}
+
+.main-footer p{
+    color:#525252;
+}
